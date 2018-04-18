@@ -1,3 +1,3 @@
 def my_select(collection)
-  collect.select 
+  collect.select {yield}
 end
